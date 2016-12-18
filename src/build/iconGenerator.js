@@ -355,6 +355,7 @@ function generate(iconsFilename, outDir) {
   json.light.fileNames = res.files.light.fileNames;
 
   writeJsonToFile(json, iconsFilename, outputDir);
+  writeJsonToFile(json, 'original_' + iconsFilename, outputDir);
   updatePackageJson(outputDir + iconsFilename);
 }
 
