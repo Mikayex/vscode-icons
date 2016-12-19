@@ -57,22 +57,20 @@
                     "default": false,
                     "description": "If set to true the new version message won't be shown anymore."
                 },
-                "vsicons.presets": {
-                    "angular2": {
-                        "type": "boolean",
-                        "default": true,
-                        "description": "If set to true the extension will match some of the common Angular 2 patterns"
-                    },
-                    "jsOfficial": {
-                        "type": "boolean",
-                        "default": false,
-                        "description": "If set to true the extension will use the official JS icon"
-                    },
-                    "tsOfficial": {
-                        "type": "boolean",
-                        "default": false,
-                        "description": "If set to true the extension will use the official TS icon"
-                    }
+                "vsicons.presets.angular2": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "If set to true the extension will match some of the common Angular 2 patterns"
+                },
+                "vsicons.presets.jsOfficial": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "If set to true the extension will use the official JS icon"
+                },
+                "vsicons.presets.tsOfficial": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "If set to true the extension will use the official TS icon"
                 }
             }
         }

@@ -31,6 +31,7 @@ function getSettings() {
     extensionFolder: extensionFolder,
     settingsPath: path.join(appPath, codePath, 'User', 'vsicons.settings.json'),
     extVersion: extVersion,
+    iconManifestPath: path.join(__dirname, 'icons.json'),
     version: version,
     isGt160: isGt160
   };
